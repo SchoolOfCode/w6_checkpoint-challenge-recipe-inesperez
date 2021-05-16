@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://www.clariant.com/-/media/Images/Business-Units/ICS/Food-Ingredients/New/Clariant-image-food-ingredients.jpg") ;
+    font-family: "Great Vibes", cursive;
+}
+#search-recipe {
+  width: 700px;
+  border: 20px solid rgb(66, 100, 66);
+  padding: 80px;
+  margin: 30px;
+  margin-left: 25%;
+}
+
+h2 {
+    color: rgb(66, 100, 66); 
+    font-family: "Great Vibes", cursive; 
+    font-size: 40px; 
+    line-height: 60px; 
+    font-weight: normal; 
+    margin-bottom: 20px;
+    margin-top: 20px; 
+    text-align: center; 
+    text-shadow: 0 1px 1px #fff; 
+}
+
+div {
+  display:grid;
+  width: 70%;
+  height: 50%;
+  align-content: center ;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 20px; 
+}
+
+#list-ingredient {
+    text-align: center;
+}
+
+.r-link {
+    text-align: left;
+    font-size: 50px;
+    color: rgb(66, 100, 66);
+    text-decoration: none;
+}
+
+.card-img{
+    position:relative;
+    width: 500px;
+    height: 500px;
+}
+
+ul {
+    font-size: 18px; 
+}
+
+input[type=text] {
+    
+    border: 2px solid rgb(66, 100, 66);
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+#food-input {
+    font-family: "Great Vibes", cursive; 
+    text-align: center;
+    margin-left: 110px;
+}
+#recipe-button {
+    font-family: "Great Vibes", cursive;
+    border: 4px solid rgb(66, 100, 66);
+    font-size: 20px;  
+}

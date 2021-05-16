@@ -1,23 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fetch</title>
+    <link  rel="stylesheet" href="style.css">
   </head>
   <body>
-    <section id="recipe-section">
-      <h2 class="section-heading">Welcome to the Recipe Finder!</h2>
-      <input
-        aria-label="food-input"
-        id="food-input"
-        onchange="handleFoodChange()"
-      />
-      <button id="recipe-button" onclick="handleRecipeClick()">
-        Give me a recipe!
-      </button>
-      <a id="recipe-label"></a>
+    <section id="search-recipe">
+      <h2 class="section-heading"> Welcome to the Recipe Finder <br>  Start cooking like a Pro! &#129316;&#129351;&#128076 </h2>
+      <input aria-label="food-input" type="text" id="food-input" onchange="handleFoodChange()" placeholder= "First ingredient in your mind..." />
+      <!-- <button id="random-recipe" onclick="handleRecipeClick()"> Suprise me! </button> --> 
+      <button id="recipe-button" onclick="handleRecipeClick()"> Show me a recipe </button>
+      <div id= "api-results"></div>
     </section>
+    
+    <section id="cards-section"> </section>
+    
     <script src="./main.js"></script>
   </body>
 </html>
